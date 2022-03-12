@@ -1,5 +1,5 @@
 # IA_microstrip_antena
-Une application qui :
+Une application qui permet de :
 * Entrainer plusieurs réseaux de neuronne capable de calculer les caractéristiques idéales d'une micro antenne, afin d'optimiser la fabrication des dites antennes, à partir d'un nombre fixe de paramètres d'entrées;
 * Entregistrer un réseau de neuronne déjà entraîné.
 * Utiliser un réseau de neuronne préentraîner pour effectuer ces calculs, grâce aux paramètres entrés par l'utilisateur;
