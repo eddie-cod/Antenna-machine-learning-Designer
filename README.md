@@ -1,6 +1,8 @@
 # IA_microstrip_antena
 Une application qui :
-*  Calcul toutes les dimensions d'une antenne microstrip à partir de certains paramètres, grâce à une Intelligence artificielle.
-*  Permet de modéliser et de simuler le fonctionnement d'une antenne microstrip en ouvrant l'application CST.
-*  Permet de créer un modèle d'apprentissage en modifiant la base de donnée d'apprentissage.
+* Entrainer plusieurs réseaux de neuronne capable de calculer les caractéristiques idéales d'une micro antenne, afin d'optimiser la fabrication des dites antennes, à partir d'un nombre fixe de paramètres d'entrées;
+* Entregistrer un réseau de neuronne déjà entraîné.
+* Utiliser un réseau de neuronne préentraîner pour effectuer ces calculs, grâce aux paramètres entrés par l'utilisateur;
+* Envoyer les résultats des calculs à une application de simulation électromagnétique 3D (CST), afin de modéliser l'antenne et simuler les champs magnétiques.
+* Récupérer le graphes des fréquences généré par CST et l'afficher.
 > Codée avec Matlab et App Designer
